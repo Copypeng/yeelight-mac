@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565399671E0778960071A7B5 /* OperateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 565399661E0778960071A7B5 /* OperateViewController.m */; };
 		783792461D06A2AA00DF5E7A /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 783792451D06A2AA00DF5E7A /* GCDAsyncSocket.m */; };
-		783E53471D05CBD2007B2D57 /* OperateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783E53461D05CBD2007B2D57 /* OperateViewController.m */; };
 		78BE020F1D0468AA00025BCC /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE020E1D0468AA00025BCC /* GCDAsyncUdpSocket.m */; };
 		78BE02151D04692100025BCC /* Socket.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE02141D04692100025BCC /* Socket.m */; };
 		78BE02181D04712C00025BCC /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE02171D04712C00025BCC /* Device.m */; };
@@ -20,10 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		565399651E0778960071A7B5 /* OperateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperateViewController.h; sourceTree = "<group>"; };
+		565399661E0778960071A7B5 /* OperateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperateViewController.m; sourceTree = "<group>"; };
 		783792441D06A2AA00DF5E7A /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		783792451D06A2AA00DF5E7A /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		783E53451D05CBD2007B2D57 /* OperateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperateViewController.h; path = ../OperateViewController.h; sourceTree = "<group>"; };
-		783E53461D05CBD2007B2D57 /* OperateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperateViewController.m; path = ../OperateViewController.m; sourceTree = "<group>"; };
 		78BE020D1D0468AA00025BCC /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		78BE020E1D0468AA00025BCC /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		78BE02131D04692100025BCC /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
@@ -95,12 +95,12 @@
 			children = (
 				78F8036B1D01C38900B2BB69 /* AppDelegate.h */,
 				78F8036C1D01C38900B2BB69 /* AppDelegate.m */,
-				78BE020C1D0468AA00025BCC /* Verdor */,
-				783792471D06A2BA00DF5E7A /* Model */,
 				78F803711D01C38900B2BB69 /* ViewController.h */,
 				78F803721D01C38900B2BB69 /* ViewController.m */,
-				783E53451D05CBD2007B2D57 /* OperateViewController.h */,
-				783E53461D05CBD2007B2D57 /* OperateViewController.m */,
+				565399651E0778960071A7B5 /* OperateViewController.h */,
+				565399661E0778960071A7B5 /* OperateViewController.m */,
+				78BE020C1D0468AA00025BCC /* Verdor */,
+				783792471D06A2BA00DF5E7A /* Model */,
 				78F803741D01C38900B2BB69 /* Assets.xcassets */,
 				78F803761D01C38900B2BB69 /* Main.storyboard */,
 				78F803791D01C38900B2BB69 /* Info.plist */,
@@ -188,10 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				783792461D06A2AA00DF5E7A /* GCDAsyncSocket.m in Sources */,
+				565399671E0778960071A7B5 /* OperateViewController.m in Sources */,
 				78BE020F1D0468AA00025BCC /* GCDAsyncUdpSocket.m in Sources */,
 				78F803731D01C38900B2BB69 /* ViewController.m in Sources */,
 				78F803701D01C38900B2BB69 /* main.m in Sources */,
-				783E53471D05CBD2007B2D57 /* OperateViewController.m in Sources */,
 				78BE02181D04712C00025BCC /* Device.m in Sources */,
 				78F8036D1D01C38900B2BB69 /* AppDelegate.m in Sources */,
 				78BE02151D04692100025BCC /* Socket.m in Sources */,
